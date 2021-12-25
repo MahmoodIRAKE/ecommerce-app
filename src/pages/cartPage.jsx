@@ -9,7 +9,7 @@ const Cart=({cart,setCart})=>{
     }
 
     return (
-        <div className="flexing-center page col">
+        <div className="flexing-center page ">
           {showProducts()}
         <button onClick={()=>setCart([])} >Pay Now</button> 
         </div>

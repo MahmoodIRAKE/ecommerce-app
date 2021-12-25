@@ -9,12 +9,14 @@ const Products=({cart,chosenCategory,setCart})=>{
             if(item.category.includes(chosenCategory.toLowerCase())){
             return <CardProduct text={item.name} img={item.img} key={item.id} item={item} callback={addToCart}/>
             }
+            return<></>
         })
     }
     const addToCart=(item)=>{
         temp.concat(cart)
         temp.push(item);
         setCart(temp);
+        setTemp(cart);
     }
 
    
