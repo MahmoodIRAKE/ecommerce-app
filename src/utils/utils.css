@@ -1,0 +1,16 @@
+.flexing-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+}
+.space{
+    justify-content: space-evenly;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(78, 77, 77);
+}
