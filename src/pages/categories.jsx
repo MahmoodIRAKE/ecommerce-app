@@ -1,12 +1,12 @@
 import React from "react";
 import CategoryCard from "../components/categories/cateCards";
-const Categories=()=>{
+const Categories=({setCategory})=>{
     return (
         <div className="flexing-center page">
-            <CategoryCard text={'Shoes'}/>
-            <CategoryCard text={'Skirts'}/>
-            <CategoryCard text={'T-shirts'}/>
-            <CategoryCard text={'Pants'}/>
+            <CategoryCard text={'Shoes'} setCategory={setCategory}/>
+            <CategoryCard text={'Skirts'} setCategory={setCategory}/>
+            <CategoryCard text={'T-shirts'} setCategory={setCategory}/>
+            <CategoryCard text={'Pants'} setCategory={setCategory}/>
         </div>
     )
 }

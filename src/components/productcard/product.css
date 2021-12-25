@@ -1,0 +1,12 @@
+.card1{
+  width:20vmin;
+  height: 30vmin;
+  margin:2vmin;
+  background-color: rgb(236, 231, 231);
+  
+}
+.btn{
+    width:100%;
+    height: 100%;
+    cursor: pointer;
+}

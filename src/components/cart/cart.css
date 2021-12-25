@@ -1,0 +1,16 @@
+.logo{
+    background-image: url('../../assets/image/cart.png');
+    border: 1px solid red;
+    width: 18vmin;
+    height: 18vmin;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+}
+.card2{
+    width:20%;
+    height: 50%;
+}
+.card2 img{
+    margin-right:15%;
+}
